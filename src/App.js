@@ -1,6 +1,7 @@
 // crie um component de class com um state com uma array de nomes e mostre na tela com um h1
 
 import React, {Component} from "react";
+import bobEsponja from './img/bob.jpg'
 
 class App extends Component {
   state = {
@@ -21,6 +22,7 @@ class App extends Component {
           <li>{this.state.musica[1]}</li>
           <li>{this.state.musica[2]}</li>
         </ul>
+        <img src={bobEsponja} alt="" />
       </div>
     ) 
   }
